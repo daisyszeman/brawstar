@@ -1,0 +1,94 @@
+h1{
+ font-size: 30px;
+  background-color:#94ff94;
+}
+
+
+li{
+  display: inline;
+  padding: 10px;
+  /* only 6 characters after the # */
+  background-color:#ff9d00;
+}
+
+header {
+  background-color:#94ff94 ;
+  text-align: center;
+  /* px = pixels */
+  padding: 15px;
+}
+
+body {
+  padding:0px;
+  margin:0px;
+}
+
+div {
+  background-color:#eee5c4;
+  margin:10px;
+  padding:10px;
+  /* to make the corners rounded */
+  border-radius:20px;
+}
+
+img{
+  height:150px ;
+  width: 120px;
+  object-fit:scale-down;
+}
+
+/* class use a full stop */
+.brawlers {
+  /* 
+  1. thickness (10px)
+  2. type (solid, dotted, dahsed)
+  3. color (red) */
+  border: 5px solid #00ff9d;
+  width: 200px;
+  text-align: center;
+  
+}
+
+/* id we will use a # */
+#hanger {
+  display: flex;
+  /* put things on the next line if full */
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+
+/* 17Jun */
+/* Hovering Effect */
+/* Select the class */
+.brawlers:hover{
+  transform: scale(1.05);
+  background-color: #94ff94;
+  border: 10px solid #ffffff;
+}
+
+
+/* 17Jun */
+/* Table Styling */
+table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #fbc502;
+  border: 5px solid #000000;
+  font-size: 18px;
+}
+
+tr:hover {
+  background-color: #fdc700;
+  border: 5px solid #fbe95e;
+  font-size: 18px;
+}
+
+footer {
+  text-align: center;
+  
+}
